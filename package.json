@@ -5,10 +5,13 @@
   "main": "run.js",
   "dependencies": {
     "async": "^0.2.10",
+    "axios": "^1.2.1",
     "boolbase": "^1.0.0",
+    "cheerio": "^1.0.0-rc.12",
     "ctype": "^0.5.2",
     "mime": "^1.2.11",
     "node-uuid": "^1.4.8",
+    "prettier": "^2.8.1",
     "puppeteer": "^19.4.1",
     "sntp": "^3.0.2",
     "underscore": "^1.4.4",
@@ -16,9 +19,12 @@
     "website-scraper-puppeteer": "^1.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine --config=jasmine.json"
   },
-  "type":"module",
+  "type": "module",
   "author": "Gregory N. Walker",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^4.5.0"
+  }
 }
