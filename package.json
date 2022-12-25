@@ -1,0 +1,24 @@
+{
+  "name": "sports-reference-scraper",
+  "version": "0.0.1",
+  "description": "Website scraper for sportsreference.com written in Javascript",
+  "main": "run.js",
+  "dependencies": {
+    "async": "^0.2.10",
+    "boolbase": "^1.0.0",
+    "ctype": "^0.5.2",
+    "mime": "^1.2.11",
+    "node-uuid": "^1.4.8",
+    "puppeteer": "^19.4.1",
+    "sntp": "^3.0.2",
+    "underscore": "^1.4.4",
+    "website-scraper": "^5.3.1",
+    "website-scraper-puppeteer": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type":"module",
+  "author": "Gregory N. Walker",
+  "license": "ISC"
+}
