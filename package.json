@@ -2,7 +2,6 @@
   "name": "sports-reference-scraper",
   "version": "0.0.1",
   "description": "Website scraper for sportsreference.com written in Javascript",
-  "main": "run.js",
   "dependencies": {
     "async": "^0.2.10",
     "axios": "^1.2.1",

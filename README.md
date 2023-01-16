@@ -1,3 +1,8 @@
+## Run
+After cloning:
+
+    npm install
+
 ## Testing
     npm test
 
